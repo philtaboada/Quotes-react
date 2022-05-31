@@ -1,0 +1,64 @@
+
+
+.main{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.Card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 20%;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.quote{
+  display: flex;
+  font-size: 1rem;
+}
+
+p{
+  padding-left: 5px;
+}
+
+.autor{
+  display: flex;
+  justify-content: end;
+  font-size: 8px;
+}
+
+.button{
+  position: absolute;
+  padding-top: 115px;
+  padding-right: 500px;
+}
+
+button{
+  border: none;
+  border-end-end-radius: 30px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 30px;
+  border-end-start-radius: 5px;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+  padding: 10px;
+}
+
+.icon{
+  color: rgb(255, 255, 255);
+}
+
+.SpamIcon{
+  position: absolute;
+  padding-right: 490px;
+  padding-bottom: 130px;
+}
